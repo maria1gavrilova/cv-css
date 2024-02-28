@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavrilova Mariia CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">               
+            <img src="фото.png" alt="my photo" class="avatar"> 
+            <div class="info-text">
+                <h1>Гаврилова Мария</h1>
+                <p><b>frontend developer</b></p>
+                <p>"i like shopping, beauty & programming"</p>
+                
+                <h4>Мои контакты</h4>
+                <a href="https://vk.com/id1262407" target="_blank">vk.com</a>|
+                <a href="https://instagram.com" target="_blank">instagram.com</a>
+            </div>
+        </div>  
+        
+        <div class="card bg-yellow">
+            <h2>Образование</h2>
+            <table class="table">
+                <tr>
+                    <td>УдГУ</td>
+                    <td>Системный программист</td>
+                    <td>2004-2009</td>
+                </tr>
+                <tr>
+                    <td>ИжГТУ</td>
+                    <td>Экономист</td>
+                    <td>2007-2011</td>
+                </tr>
+                <tr>
+                    <td>Skillbox</td>
+                    <td>IOS-разработчик</td>
+                    <td>2022-2023</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="card bg-green">
+            <h2>Курсы</h2>
+                <ul class="list">
+                    <li>"Мои первые приложения", Swiftbook, 2021</li>
+                    <li>"Git для начинающих", Slurm, 2021</li>
+                    <li>"Интерактивный тренажер по SQL, Stepik, 2022"</li>
+                    <li>"Поколение Python", Stetik, 2023</li>
+                </ul>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            <ol class="list-work">
+                <li>ЦГиЭ, 2010-2017, бухгалтер</li>
+                <li>2S, 2017-2023, менеджер проектов</li>
+                <li>ДЦОА, 2023-2024, инженер по автоматизации</li>
+            </ol>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои проекты</h2>
+            <a href="project.html" target="_blank">Посмотреть проекты</a>
+        </div>
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Контакты для связи:</label>
+                        <input type="email" id="email" placeholder="Введите свой email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">Ваше сообщение</label>
+                    <textarea id="text" rows="2" cols="15"></textarea>
+                </div>
+                <input type="submit" class="btn" value="Связаться">
+            </form>
+        </div>
+    </div>
+    <div class="position">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
